@@ -22,6 +22,7 @@ const (
 	RegistryCredentials  = sdk.CredentialName("Registry Credentials")
 	SecretKey            = sdk.CredentialName("Secret Key")
 	UserLogin            = sdk.CredentialName("User Login")
+	DockerAccessToken    = sdk.CredentialName("Docker Access Token")
 )
 
 func ListAll() []sdk.CredentialName {
@@ -44,5 +45,6 @@ func ListAll() []sdk.CredentialName {
 		RegistryCredentials,
 		SecretKey,
 		UserLogin,
+		DockerAccessToken,
 	}
 }
